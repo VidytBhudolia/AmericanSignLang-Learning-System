@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -14,7 +14,7 @@ ENV/
 
 # Model weights and outputs
 *.pt
-output/weights/*.pt
+!output/weights/best.pt
 output/predictions/*.jpg
 output/predictions/*.png
 runs/
