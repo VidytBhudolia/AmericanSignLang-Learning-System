@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model weights and outputs
+*.pt
+output/weights/*.pt
+output/predictions/*.jpg
+output/predictions/*.png
+runs/
+
+# Large files
+*.zip
+
+# Dataset (too large for git)
+data/*/train/images/
+data/*/valid/images/
+data/*/test/images/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
